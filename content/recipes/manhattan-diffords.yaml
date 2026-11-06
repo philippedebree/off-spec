@@ -1,0 +1,23 @@
+# SAMPLE — replace with scraper output.
+name: Manhattan
+compare_key: manhattan
+method: stirred
+served: up
+glass: nick-and-nora
+designed_for:
+  glass: nick-and-nora
+  glass_capacity_ml: 133
+  spec_volume_ml: 90
+ingredients:
+  - { name: Rye whiskey, ml: 60, oz: 2, scaling: linear }
+  - { name: Sweet vermouth, ml: 30, oz: 1, scaling: linear }
+  - { name: Angostura bitters, dashes: 2, amount: 2 dashes, scaling: dash }
+garnish: Brandied cherry
+steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled Nick & Nora.
+source:
+  site: Sample
+  url: https://example.com/manhattan
+  retrieved: 2026-11-04
+tags: [stirred, whiskey, classic]
