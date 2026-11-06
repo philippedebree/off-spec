@@ -1,7 +1,7 @@
 # off-spec
 A cocktail repository website, focusing on comparison of specs and easy of cocktail discovery
 
-Built with Next.js (App Router), TypeScript and Tailwind CSS. Recipes are YAML files in `content/recipes/` (the scraper's output). They're read at build time, and every page is pre-rendered as static HTML.
+Built with Next.js (App Router), TypeScript and Tailwind CSS. Recipes are YAML files in `content/drinks/`, one file per drink holding every version (spec) of it. They're read at build time, and every page is pre-rendered as static HTML.
 
 ## Getting started (Windows)
 
@@ -18,9 +18,10 @@ Open http://localhost:3000.
 ## Structure
 
 ```
-content/recipes/        YAML recipes, one per recipe per source (3 samples to replace)
-src/lib/types.ts        TypeScript types that mirror the scraper schema
-src/lib/recipes.ts      Loads YAML and groups recipes by compare_key
+content/drinks/         One YAML file per drink (e.g. mai-tai.yaml) with all its versions
+scripts/                Import and merge tools (see "Adding recipes")
+src/lib/types.ts        TypeScript types for drinks, versions and ingredients
+src/lib/recipes.ts      Loads drink files and flattens versions into recipe pages
 src/lib/scale.ts        Glass-size scaler (fill level, dilution, non-linear ingredients)
 src/components/GlassScaler.tsx   Client-side glass picker that rescales the spec live
 src/app/recipes/        Recipe list and recipe detail pages
@@ -29,7 +30,12 @@ src/app/compare/        Compare index and side-by-side table per drink
 
 ## Adding recipes
 
-Copy the scraper's YAML files into `content/recipes/`. Each file name becomes the URL slug. Recipes that share a `compare_key` appear together on `/compare/<key>`.
+Each drink is one file, `content/drinks/<drink>.yaml`. The file name is the drink's key and its comparison page is `/compare/<drink>`. Each entry under `versions:` is one spec; its `slug` is its page URL, `/recipes/<slug>`. To add a spec by hand, add an entry to `versions:`.
+
+- **Scraper output** (one file per recipe): `python scripts/merge-into-drinks.py path/to/scraped content/drinks`. Each recipe is added to the drink named by its `compare_key`; re-running replaces versions with the same slug.
+- **Booze Google Sheet**: export it as .xlsx, then `python scripts/import-booze-sheet.py Booze.xlsx content/drinks`. Re-running replaces everything that came from the sheet and leaves other versions alone.
+
+Both need `pip install openpyxl pyyaml`.
 
 Only `steps` (our rewritten text) are rendered. `reference_steps` (source wording) are never shown.
 

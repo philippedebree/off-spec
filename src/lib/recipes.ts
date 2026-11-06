@@ -1,26 +1,47 @@
 import fs from "node:fs";
 import path from "node:path";
 import { load as parseYaml } from "js-yaml";
-import type { Recipe } from "./types";
+import type { Drink, Recipe } from "./types";
 
-const RECIPES_DIR = path.join(process.cwd(), "content", "recipes");
+// One file per drink: content/drinks/<compare_key>.yaml, holding every version.
+const DRINKS_DIR = path.join(process.cwd(), "content", "drinks");
 
-let cache: Recipe[] | null = null;
+let drinkCache: Drink[] | null = null;
+let recipeCache: Recipe[] | null = null;
 
-/** Load every *.yaml / *.yml recipe at build time. */
-export function getAllRecipes(): Recipe[] {
-  if (cache) return cache;
-  if (!fs.existsSync(RECIPES_DIR)) return (cache = []);
+/** Load every drink file at build time. */
+export function getAllDrinks(): Drink[] {
+  if (drinkCache) return drinkCache;
+  if (!fs.existsSync(DRINKS_DIR)) return (drinkCache = []);
 
-  cache = fs
-    .readdirSync(RECIPES_DIR)
+  drinkCache = fs
+    .readdirSync(DRINKS_DIR)
     .filter((f) => /\.ya?ml$/.test(f))
     .map((file) => {
-      const raw = parseYaml(fs.readFileSync(path.join(RECIPES_DIR, file), "utf8")) as Omit<Recipe, "slug">;
-      return { ...raw, slug: file.replace(/\.ya?ml$/, "") };
+      const raw = parseYaml(fs.readFileSync(path.join(DRINKS_DIR, file), "utf8")) as Omit<Drink, "key">;
+      return { ...raw, key: file.replace(/\.ya?ml$/, "") };
     })
     .sort((a, b) => a.name.localeCompare(b.name));
-  return cache;
+  return drinkCache;
+}
+
+/** Every version of every drink, flattened into standalone recipes (one per URL). */
+export function getAllRecipes(): Recipe[] {
+  if (recipeCache) return recipeCache;
+  recipeCache = getAllDrinks()
+    .flatMap((drink) =>
+      drink.versions.map(
+        ({ name, ...version }): Recipe => ({
+          ...version,
+          name: name ?? drink.name,
+          compare_key: drink.key,
+          tags: drink.tags,
+          related: drink.related,
+        }),
+      ),
+    )
+    .sort((a, b) => a.name.localeCompare(b.name));
+  return recipeCache;
 }
 
 export function getRecipe(slug: string): Recipe | undefined {

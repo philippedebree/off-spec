@@ -1,0 +1,32 @@
+# Suffering Bastard - 1 version
+name: Suffering Bastard
+tags:
+- tiki
+versions:
+- slug: suffering-bastard-joe-scialom
+  method: shaken
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 75
+  ingredients:
+  - {name: Gin, ml: 30, oz: 1, scaling: linear, note: London Dry}
+  - {name: Brandy, ml: 30, oz: 1, scaling: linear}
+  - {name: Lime cordial, ml: 15, oz: 0.5, scaling: linear, note: Berry recommends Rose's; homemade works too}
+  - {name: Angostura bitters, dashes: 2, amount: 2 dashes, scaling: dash}
+  - {name: Ginger beer, ml: 120, oz: 4, scaling: topper}
+  garnish: Mint Sprig, Orange Wheel
+  steps:
+  - Shake hard with ice.
+  - Strain into a collins over fresh ice.
+  - Top with ginger beer.
+  source:
+    site: Joe Scialom
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Shepheard's Hotel, Cairo
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 41

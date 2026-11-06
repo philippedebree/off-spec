@@ -1,0 +1,35 @@
+# La Florida - 1 version
+name: La Florida
+tags:
+- tiki
+versions:
+- slug: la-florida-educated-barfly
+  method: shaken
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 117.5
+  ingredients:
+  - {name: Light rum, ml: 60, oz: 2, scaling: linear, note: Banks 5 Island White}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Grenadine, ml: 5, oz: 0.167, scaling: linear, amount: 1 tsp}
+  - {name: White crème de cacao, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Sweet vermouth, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Lime Wheel/Coupe
+  steps:
+  - Shake hard with ice.
+  - Pour into a tiki mug and fill with crushed ice.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: More Sophisticated
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 16
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed tiki mug.

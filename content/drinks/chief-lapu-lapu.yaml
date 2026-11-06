@@ -1,0 +1,33 @@
+# Chief Lapu Lapu - 1 version
+name: Chief Lapu Lapu
+tags:
+- tiki
+versions:
+- slug: chief-lapu-lapu-distinguished-spirits
+  method: shaken
+  served: crushed-ice
+  glass: snifter
+  designed_for:
+    glass: snifter
+    spec_volume_ml: 300
+  ingredients:
+  - {name: Light rum, ml: 45, oz: 1.5, scaling: linear, note: Cuban Style}
+  - {name: Jamaican rum, ml: 45, oz: 1.5, scaling: linear, note: Dark}
+  - {name: Lemon juice, ml: 60, oz: 2, scaling: linear}
+  - {name: Orange juice, ml: 90, oz: 3, scaling: linear}
+  - {name: Passionfruit syrup, ml: 30, oz: 1, scaling: linear}
+  - {name: Simple syrup, ml: 30, oz: 1, scaling: linear}
+  garnish: Cinnamon Stick or Lemon Peel
+  steps:
+  - Shake with 12 oz of crushed ice and cubes.
+  - Pour into a snifter and fill with crushed ice.
+  source:
+    site: Distinguished Spirits
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: Lotta Citrus! Plus Light and Dark played against each other nicely
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 5

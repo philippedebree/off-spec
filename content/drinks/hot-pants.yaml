@@ -1,0 +1,30 @@
+# Hot Pants - 1 version
+name: Hot Pants
+tags:
+- tequila
+versions:
+- slug: hot-pants-punch
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 97.5
+  ingredients:
+  - {name: Reposado tequila, ml: 60, oz: 2, scaling: linear}
+  - {name: Grapefruit juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Mint tea syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Mint leaves, amount: 5-6, scaling: fixed}
+  garnish: Grapefruit twist
+  steps:
+  - Gently muddle the mint leaves in the shaker.
+  - Shake hard with ice.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 66

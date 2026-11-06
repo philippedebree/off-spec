@@ -1,0 +1,34 @@
+# Untitled (she_thebartender) - 1 version
+name: Untitled (she_thebartender)
+tags:
+- non-alcoholic
+versions:
+- slug: untitled-she-thebartender
+  method: shaken
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 15
+  ingredients:
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orange juice, amount: splash, scaling: fixed}
+  - {name: Coconut cream, amount: 1 spoonful, scaling: fixed}
+  - {name: Soda water, amount: top, scaling: topper}
+  - {name: Vanilla Angostura bitters, amount: float, scaling: fixed}
+  garnish: Mint
+  steps:
+  - Shake hard with ice.
+  - Strain into a collins over fresh ice.
+  - Top with soda water.
+  source:
+    site: '@she_thebartender (Instagram)'
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 44
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed collins.

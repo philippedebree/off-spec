@@ -1,0 +1,28 @@
+# Brunelle Frappé - 1 version
+name: Brunelle Frappé
+tags:
+- absinthe
+versions:
+- slug: brunelle-frappe-punch
+  method: swizzled
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Lemon juice, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Absinthe, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Simple syrup, ml: 22.5, oz: 0.75, scaling: linear}
+  garnish: Lemon Wedge
+  steps:
+  - Whip-shake, then swizzle over crushed ice.
+  - Add to a rocks glass with crushed ice and swizzle until the glass frosts.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 3

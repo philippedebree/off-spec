@@ -1,0 +1,34 @@
+# A La Louisiane - 1 version
+name: A La Louisiane
+tags:
+- benedictine
+- rye
+versions:
+- slug: a-la-louisiane-house
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Rye whiskey, ml: 60, oz: 2, scaling: linear}
+  - {name: Bénédictine, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Sweet vermouth, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Absinthe, dashes: 3, amount: 3 dashes, scaling: dash}
+  - {name: Peychaud's bitters, dashes: 3, amount: 3 dashes, scaling: dash}
+  garnish: Cocktail cherry
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 84
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

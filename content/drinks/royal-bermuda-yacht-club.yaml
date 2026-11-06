@@ -1,0 +1,31 @@
+# Royal Bermuda Yacht Club - 1 version
+name: Royal Bermuda Yacht Club
+tags:
+- tiki
+versions:
+- slug: royal-bermuda-yacht-club-educated-barfly
+  method: shaken
+  served: up
+  glass: nick-and-nora
+  designed_for:
+    glass: nick-and-nora
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Demerara rum, ml: 60, oz: 2, scaling: linear, note: EB uses El Dorado 5}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Falernum, ml: 15, oz: 0.5, scaling: linear, note: Optimally Velvet}
+  - {name: Orange curaçao, ml: 7.5, oz: 0.25, scaling: linear}
+  garnish: Lime Wheel
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled Nick & Nora.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: Sophisticated, Light, Elevated Daiquiri essentially
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 32

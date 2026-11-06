@@ -1,0 +1,31 @@
+# Night Tripper - 1 version
+name: Night Tripper
+tags:
+- bourbon
+versions:
+- slug: night-tripper-liquor-com
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 82.5
+  ingredients:
+  - {name: Bourbon, ml: 52.5, oz: 1.75, scaling: linear}
+  - {name: Amaro, ml: 22.5, oz: 0.75, scaling: linear, note: Averna}
+  - {name: Strega, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Peychaud's bitters, dashes: 2, amount: 2 dashes, scaling: dash}
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: Liquor.com
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 11
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

@@ -1,0 +1,36 @@
+# Colonial Ties - 1 version
+name: Colonial Ties
+tags:
+- rum
+- rye
+versions:
+- slug: colonial-ties-house
+  method: built
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 60
+  ingredients:
+  - {name: Absinthe, amount: rinse, scaling: rinse}
+  - {name: Rye whiskey, ml: 30, oz: 1, scaling: linear}
+  - {name: Jamaican rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Soda water, amount: splash, scaling: fixed}
+  - {name: Orange bitters, dashes: 4, amount: 4 dashes, scaling: dash}
+  - {name: Sugar cube, amount: '1', scaling: fixed, note: rough cut}
+  garnish: Orange Twist
+  steps:
+  - Rinse a rocks glass with absinthe and discard the excess.
+  - Muddle the sugar cube with the bitters and soda in the glass.
+  - Add the spirits and a large ice cube, and stir briefly.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 59
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old-fashioned.

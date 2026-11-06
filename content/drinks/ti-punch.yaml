@@ -1,0 +1,27 @@
+# Ti' Punch - 1 version
+name: Ti' Punch
+tags:
+- tiki
+versions:
+- slug: ti-punch-traditional
+  method: built
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 60
+  ingredients:
+  - {name: Rhum agricole, ml: 60, oz: 2, scaling: linear}
+  - {name: Lime, amount: 1 coin (thin round of peel and flesh), scaling: fixed}
+  - {name: Cane syrup, amount: splash, scaling: fixed}
+  steps:
+  - Squeeze the lime coin into a small rocks glass and drop it in.
+  - Add the cane syrup and rhum agricole, and swizzle briefly. Ice is optional.
+  source:
+    site: Traditional
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 45

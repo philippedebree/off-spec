@@ -1,0 +1,34 @@
+# Alpine Negroni - 1 version
+name: Alpine Negroni
+tags:
+- gin
+versions:
+- slug: alpine-negroni-punch
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 95
+  ingredients:
+  - {name: Gin, ml: 30, oz: 1, scaling: linear}
+  - {name: Suze, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Cocchi Americano, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Génépy, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Crème de menthe, ml: 5, oz: 0.167, scaling: linear, round: down, amount: 1 barspoon}
+  - {name: Lemon bitters, dashes: 3, amount: 3 dashes, scaling: dash}
+  - {name: Saline solution, amount: 2 drops, scaling: dash}
+  garnish: Rosemary
+  steps:
+  - Shake hard with ice.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: NIce color! Go easy on the mint, it's super overwhelming
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 24

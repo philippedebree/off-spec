@@ -1,0 +1,34 @@
+# Accidental Tourist or Dillinger Fix - 1 version
+name: Accidental Tourist or Dillinger Fix
+tags:
+- gin
+versions:
+- slug: accidental-tourist-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Gin, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Peach liqueur, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Dill, amount: pinch, scaling: fixed}
+  garnish: Lemon Twist
+  steps:
+  - Gently muddle the dill in the shaker.
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 85
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

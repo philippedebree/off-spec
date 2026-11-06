@@ -1,0 +1,36 @@
+# Enzoni - 1 version
+name: Enzoni
+tags:
+- gin
+versions:
+- slug: enzoni-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 97.5
+  ingredients:
+  - {name: Seedless grapes, amount: '5', scaling: fixed}
+  - {name: Dry gin, ml: 30, oz: 1, scaling: linear}
+  - {name: Campari, ml: 30, oz: 1, scaling: linear}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  steps:
+  - Gently muddle the seedless grapes in the shaker.
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    tagline: Gin sour with grapes and campari
+    highlights: Grapes, Campari
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 28
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

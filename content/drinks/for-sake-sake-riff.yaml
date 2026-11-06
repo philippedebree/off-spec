@@ -1,0 +1,34 @@
+# For Sake Sake Riff - 1 version
+name: For Sake Sake Riff
+tags:
+- rum
+- sake
+versions:
+- slug: for-sake-sake-riff-house
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 120
+  ingredients:
+  - {name: White rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Sake, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Italicus, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orange curaçao, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Saline solution, amount: 3 drops, scaling: dash}
+  garnish: 3 Coffee beans
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 60
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

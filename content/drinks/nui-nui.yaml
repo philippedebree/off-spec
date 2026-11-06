@@ -1,0 +1,37 @@
+# Nui Nui - 1 version
+name: Nui Nui
+tags:
+- tiki
+versions:
+- slug: nui-nui-smugglers-cove
+  method: shaken
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Gold rum, ml: 60, oz: 2, scaling: linear, note: Make and Drink recommends Bacardi 8 (but more aged than usual)}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orange juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Vanilla syrup, ml: 3.75, oz: 0.125, scaling: linear, amount: 3/4 tsp}
+  - {name: Cinnamon syrup, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Angostura bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  - {name: Allspice dram, ml: 3.75, oz: 0.125, scaling: linear, round: down, amount: 3/4 tsp}
+  steps:
+  - Shake hard with ice.
+  - Pour into a tiki mug and fill with crushed ice.
+  source:
+    site: Smuggler's Cove
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Don the Beachcomber
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 24
+  needs_review: true
+  review_notes:
+  - Cinnamon Syrup amount was stored as a date in the sheet; read as 1/4 oz.
+  - Method not in the sheet; assumed shaken.
+  - Glass not in the sheet; assumed tiki mug.

@@ -1,0 +1,35 @@
+# Mai Kai Swizzle - 1 version
+name: Mai Kai Swizzle
+tags:
+- tiki
+versions:
+- slug: mai-kai-swizzle-the-atomic-grog
+  method: swizzled
+  served: crushed-ice
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 161
+  ingredients:
+  - {name: Jamaican rum, ml: 60, oz: 2, scaling: linear, note: 'Gold, but pot-still should work'}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orange juice, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Falernum, ml: 3.75, oz: 0.125, scaling: linear}
+  - {name: Mango juice, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Speared Pineapple Chunk, Cherry
+  steps:
+  - Add to a collins with crushed ice and swizzle until the glass frosts.
+  source:
+    site: The Atomic Grog
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Hurricane Hayward, after the Mai-Kai
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 18
+  needs_review: true
+  review_notes:
+  - Falernum amount was stored as a date in the sheet; read as 1/8 oz.

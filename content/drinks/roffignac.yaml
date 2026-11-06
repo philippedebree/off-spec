@@ -1,0 +1,30 @@
+# Dauphine's Roffignac - 1 version
+name: Dauphine's Roffignac
+tags:
+- tequila
+versions:
+- slug: roffignac-punch
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 75
+  ingredients:
+  - {name: Blanco tequila, ml: 30, oz: 1, scaling: linear}
+  - {name: Cranberry shrub, ml: 45, oz: 1.5, scaling: linear, note: 'equal parts cranberry juice, water, white vinegar and white sugar'}
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 65
+  needs_review: true
+  review_notes:
+  - Spec looks incomplete (trailing comma in the sheet).
+  - Glass not in the sheet; assumed coupe.

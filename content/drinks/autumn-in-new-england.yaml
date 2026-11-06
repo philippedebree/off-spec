@@ -1,0 +1,34 @@
+# Autumn in New England - 1 version
+name: Autumn in New England
+tags:
+- bourbon
+versions:
+- slug: autumn-in-new-england-house
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Sage leaves, amount: 4-6, scaling: fixed}
+  - {name: Maple syrup, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Apple cider vinegar, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Apple cider, ml: 30, oz: 1, scaling: linear}
+  - {name: Bourbon, ml: 60, oz: 2, scaling: linear, note: potentially rye}
+  garnish: Sage
+  steps:
+  - Gently muddle the sage leaves.
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 8
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

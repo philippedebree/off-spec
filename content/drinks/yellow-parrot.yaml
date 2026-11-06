@@ -1,0 +1,31 @@
+# Yellow Parrot - 1 version
+name: Yellow Parrot
+tags:
+- absinthe
+- yellow-c
+versions:
+- slug: yellow-parrot-punch
+  method: stirred
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Absinthe, ml: 30, oz: 1, scaling: linear}
+  - {name: Yellow Chartreuse, ml: 30, oz: 1, scaling: linear}
+  - {name: Apricot liqueur, ml: 30, oz: 1, scaling: linear}
+  garnish: Lemon Twist
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: Too much absinthe, but the seed of something excellent
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 4

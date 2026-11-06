@@ -1,0 +1,28 @@
+# Americano - 1 version
+name: Americano
+tags:
+- campari
+versions:
+- slug: americano-house
+  method: built
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Campari, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Sweet vermouth, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Soda water, amount: top, scaling: topper}
+  garnish: Orange twist
+  steps:
+  - Build in a collins over ice.
+  - Top with soda water.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 16

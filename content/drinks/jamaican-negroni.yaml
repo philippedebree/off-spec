@@ -1,0 +1,33 @@
+# Jamaican Negroni - 1 version
+name: Jamaican Negroni
+tags:
+- rum
+versions:
+- slug: jamaican-negroni-house
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Sweet vermouth, ml: 30, oz: 1, scaling: linear}
+  - {name: Campari, ml: 30, oz: 1, scaling: linear}
+  - {name: Rum, ml: 30, oz: 1, scaling: linear}
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    tagline: Negroni, but with Rum
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 50
+  needs_review: true
+  review_notes:
+  - Written as 1:1:1; set to 1 oz each.
+  - Glass not in the sheet; assumed coupe.

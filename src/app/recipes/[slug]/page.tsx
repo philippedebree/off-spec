@@ -54,9 +54,13 @@ export default async function RecipePage({ params }: PageProps<"/recipes/[slug]"
 
       <footer className="text-sm text-neutral-500">
         Spec via{" "}
-        <a href={recipe.source.url} className="underline" rel="noopener">
-          {recipe.source.site}
-        </a>
+        {recipe.source.url ? (
+          <a href={recipe.source.url} className="underline" rel="noopener">
+            {recipe.source.site}
+          </a>
+        ) : (
+          recipe.source.site
+        )}
         {recipe.credit && <> · {recipe.credit}</>}
         {recipe.source.sponsored && <> · sponsored content</>}
       </footer>

@@ -1,0 +1,32 @@
+# Mr Bali Hai - 1 version
+name: Mr Bali Hai
+tags:
+- tiki
+versions:
+- slug: mr-bali-hai-educated-barfly
+  method: shaken
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 187.5
+  ingredients:
+  - {name: Light rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Jamaican rum, ml: 45, oz: 1.5, scaling: linear, note: Dark}
+  - {name: Pineapple juice, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Lemon juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Coffee liqueur, ml: 22.5, oz: 0.75, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Pour into a tiki mug and fill with crushed ice.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: Coffee!
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 22

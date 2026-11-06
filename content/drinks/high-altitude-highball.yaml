@@ -1,0 +1,28 @@
+# High Altitude Highball - 1 version
+name: High Altitude Highball
+tags:
+- whiskey
+versions:
+- slug: high-altitude-highball-punch
+  method: built
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 60
+  ingredients:
+  - {name: Japanese whiskey, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Génépy, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Soda water, amount: top, scaling: topper}
+  garnish: Lemon peel
+  steps:
+  - Build in a collins over ice.
+  - Top with soda water.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 73

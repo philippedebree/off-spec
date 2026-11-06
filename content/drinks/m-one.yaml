@@ -1,0 +1,33 @@
+# M-One - 1 version
+name: M-One
+tags:
+- scotch-lightly-peated
+versions:
+- slug: m-one-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 127.5
+  ingredients:
+  - {name: Scotch, ml: 45, oz: 1.5, scaling: linear, note: lightly peated}
+  - {name: Triple Sec, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orange juice, ml: 60, oz: 2, scaling: linear}
+  - {name: Angostura bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    tagline: Tiki, but not
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 64
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

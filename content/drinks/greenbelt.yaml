@@ -1,0 +1,33 @@
+# The Greenbelt - 1 version
+name: The Greenbelt
+tags:
+- tequila
+versions:
+- slug: greenbelt-punch
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Tequila, ml: 30, oz: 1, scaling: linear}
+  - {name: Génépy, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Velvet falernum, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Verdita, ml: 30, oz: 1, scaling: linear}
+  - {name: Saline solution, amount: 2 drops, scaling: dash}
+  garnish: Lime wheel
+  steps:
+  - Shake hard with ice.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: Excellent light and crisp, bright, very solid even with just pineapple juice
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 67

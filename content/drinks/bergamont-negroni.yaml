@@ -1,0 +1,32 @@
+# Bergamont Negroni - 1 version
+name: Bergamont Negroni
+tags:
+- gin
+versions:
+- slug: bergamont-negroni-diffords
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 82.5
+  ingredients:
+  - {name: Oak-aged gin, ml: 30, oz: 1, scaling: linear}
+  - {name: Italian red bitter liqueur, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Strucchi dry vermouth, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Italicus, ml: 7.5, oz: 0.25, scaling: linear}
+  garnish: Orange Twist
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: Difford's Guide
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 95
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

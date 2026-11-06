@@ -1,0 +1,31 @@
+# White Cloud - 1 version
+name: White Cloud
+tags:
+- tiki
+versions:
+- slug: white-cloud-make-and-drink
+  method: shaken
+  served: up
+  glass: glencairn
+  designed_for:
+    glass: glencairn
+    spec_volume_ml: 75
+  ingredients:
+  - {name: Light rum, ml: 30, oz: 1, scaling: linear, note: 'Puerto Rican, Make and Drink uses Havana Club'}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Falernum, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Cointreau, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Cream of coconut, ml: 15, oz: 0.5, scaling: linear}
+  garnish: None
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled glencairn.
+  source:
+    site: Make and Drink
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Jeff "Beachbum" Berry
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 50

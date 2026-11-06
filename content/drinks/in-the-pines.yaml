@@ -1,0 +1,31 @@
+# In The Pines - 1 version
+name: In The Pines
+tags:
+- rye
+versions:
+- slug: in-the-pines-punch
+  method: shaken
+  served: up
+  glass: flute
+  designed_for:
+    glass: flute
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Chamomile-infused rye, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Génépy, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Vanilla syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Sparkling wine, amount: top, scaling: topper}
+  garnish: Lemon zest
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled flute.
+  - Top with sparkling wine.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 63

@@ -1,0 +1,33 @@
+# NY Amaretto Sour - 1 version
+name: NY Amaretto Sour
+tags:
+- amaretto
+versions:
+- slug: ny-amaretto-sour-house
+  method: shaken
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Amaretto, ml: 60, oz: 2, scaling: linear}
+  - {name: Lemon juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Egg white, amount: 1 egg white, scaling: fixed}
+  - {name: Red wine, amount: float, scaling: topper, note: Malbec; float over a barspoon}
+  garnish: 8 drops Angostura bitters
+  steps:
+  - Dry shake without ice, then shake hard with ice.
+  - Strain into a collins over fresh ice.
+  - Top with red wine.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 5
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed collins.

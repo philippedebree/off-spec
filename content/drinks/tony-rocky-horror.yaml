@@ -1,0 +1,31 @@
+# Tony Rocky Horror - 1 version
+name: Tony Rocky Horror
+tags:
+- tiki
+versions:
+- slug: tony-rocky-horror-sam-ross
+  method: shaken
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 112.5
+  ingredients:
+  - {name: Jamaican rum, ml: 30, oz: 1, scaling: linear, note: Appleton}
+  - {name: High-ester Jamaican rum, ml: 15, oz: 0.5, scaling: linear, note: Hamilton or Doctor Bird}
+  - {name: Absinthe, dashes: 2, amount: 2 dashes, scaling: dash}
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Falernum, ml: 22.5, oz: 0.75, scaling: linear}
+  garnish: Mint, Grated Nutmeg
+  steps:
+  - Shake hard with ice.
+  - Pour into a tiki mug and fill with crushed ice.
+  source:
+    site: Sam Ross
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 46

@@ -1,0 +1,31 @@
+# Untitled (bourbon & brandy sour) - 1 version
+name: Untitled (bourbon & brandy sour)
+versions:
+- slug: untitled-bourbon-and-brandy-sour
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Bourbon, ml: 30, oz: 1, scaling: linear}
+  - {name: Brandy, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Vermouth, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 78
+  needs_review: true
+  review_notes:
+  - Unnamed in the sheet; 'vermouth' unspecified (sweet or dry).
+  - Glass not in the sheet; assumed coupe.

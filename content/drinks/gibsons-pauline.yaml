@@ -1,0 +1,30 @@
+# The Gibson's Pauline - 1 version
+name: The Gibson's Pauline
+tags:
+- rum
+versions:
+- slug: gibsons-pauline-punch
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 82.5
+  ingredients:
+  - {name: Unaged rum, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Absinthe, dashes: 4, amount: 4 dashes, scaling: dash}
+  - {name: Orange bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  garnish: Grated Nutmeg
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 54

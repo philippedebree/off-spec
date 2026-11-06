@@ -1,0 +1,34 @@
+# Art of Choke - 1 version
+name: Art of Choke
+tags:
+- cynar
+- rum
+versions:
+- slug: art-of-choke-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 94
+  ingredients:
+  - {name: Cynar, ml: 30, oz: 1, scaling: linear}
+  - {name: White rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Green Chartreuse, ml: 7.5, oz: 0.25, scaling: linear, round: down}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Rich demerara syrup, ml: 3.75, oz: 0.125, scaling: linear, amount: 3/4 tsp}
+  garnish: Mint Sprig Garnish
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 93
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

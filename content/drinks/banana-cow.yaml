@@ -1,0 +1,36 @@
+# Banana Cow - 1 version
+name: Banana Cow
+tags:
+- rum
+versions:
+- slug: banana-cow-educated-barfly
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 165
+  ingredients:
+  - {name: Milk, ml: 90, oz: 3, scaling: linear}
+  - {name: Jamaican rum, ml: 45, oz: 1.5, scaling: linear, note: merchant reserve}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Banana liqueur, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Angostura bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  - {name: Vanilla extract, dashes: 1, amount: 1 dash, scaling: dash}
+  garnish: Grated Nutmeg
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    highlights: Milk, Rum
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 46
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

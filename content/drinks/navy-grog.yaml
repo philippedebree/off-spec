@@ -1,0 +1,33 @@
+# Navy Grog - 1 version
+name: Navy Grog
+tags:
+- tiki
+versions:
+- slug: navy-grog-smugglers-cove
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 187.5
+  ingredients:
+  - {name: Light rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Jamaican rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Demerara rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Grapefruit juice, ml: 22.5, oz: 0.75, scaling: linear, note: Traditionally White}
+  - {name: Honey syrup, ml: 30, oz: 1, scaling: linear}
+  - {name: Soda water, ml: 22.5, oz: 0.75, scaling: linear}
+  garnish: Ice Cone
+  steps:
+  - Shake hard with ice.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Smuggler's Cove
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Don the Beachcomber
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 23

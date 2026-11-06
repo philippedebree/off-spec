@@ -1,0 +1,35 @@
+# Golden Island Mai Tai - 1 version
+name: Golden Island Mai Tai
+tags:
+- mai-tai
+- tiki
+related:
+- mai-tai
+versions:
+- slug: golden-island-mai-tai
+  method: blended
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 180
+  ingredients:
+  - {name: Lime juice, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Orange juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear, note: BG Reynolds}
+  - {name: Pineapple molasses syrup, ml: 30, oz: 1.0, scaling: linear, note: BG Reynolds}
+  - {name: Pineapple rum, ml: 75, oz: 2.5, scaling: linear, note: Stiggins' Fancy}
+  steps:
+  - Flash blend with crushed ice.
+  - Pour unstrained into a tiki mug.
+  source:
+    site: Jason Alexander
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 39
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed tiki mug with crushed ice.

@@ -1,0 +1,35 @@
+# Molasses Mai Tai - 1 version
+name: Molasses Mai Tai
+tags:
+- mai-tai
+- tiki
+related:
+- mai-tai
+versions:
+- slug: molasses-mai-tai
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 127.5
+  ingredients:
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Molasses syrup, ml: 7.5, oz: 0.25, scaling: linear, note: '1 cup hot water, 2 cups sugar, 2 tbsp mild molasses; stir to dissolve'}
+  - {name: Orange curaçao, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Aged Jamaican rum, ml: 60, oz: 2, scaling: linear, note: Appleton Reserve 8}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: Kevin Crossman
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 53
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.

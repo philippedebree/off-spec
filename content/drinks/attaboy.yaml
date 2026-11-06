@@ -1,0 +1,31 @@
+# Attaboy - 1 version
+name: Attaboy
+tags:
+- gin
+versions:
+- slug: attaboy-house
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 95
+  ingredients:
+  - {name: Gin, ml: 60, oz: 2, scaling: linear}
+  - {name: Dry vermouth, ml: 30, oz: 1, scaling: linear}
+  - {name: Grenadine, ml: 5, oz: 0.167, scaling: linear, amount: 1 barspoon}
+  garnish: Orange Twist
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 87
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

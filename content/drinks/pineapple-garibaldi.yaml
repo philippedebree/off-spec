@@ -1,0 +1,27 @@
+# Pineapple Garibaldi - 1 version
+name: Pineapple Garibaldi
+tags:
+- genepy
+versions:
+- slug: pineapple-garibaldi-punch
+  method: shaken
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 225
+  ingredients:
+  - {name: Pineapple juice, ml: 180, oz: 6, scaling: linear}
+  - {name: Génépy, ml: 45, oz: 1.5, scaling: linear}
+  garnish: Pineapple wedge
+  steps:
+  - Shake hard with ice.
+  - Strain into a collins over fresh ice.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 23

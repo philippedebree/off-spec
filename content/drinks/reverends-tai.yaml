@@ -1,0 +1,35 @@
+# The Reverend's Tai - 1 version
+name: The Reverend's Tai
+tags:
+- mai-tai
+- tiki
+related:
+- mai-tai
+versions:
+- slug: the-reverends-tai
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 112.5
+  ingredients:
+  - {name: Lime juice, ml: 30, oz: 1.0, scaling: linear}
+  - {name: Dry curaçao, ml: 7.5, oz: 0.25, scaling: linear, note: Pierre Ferrand; or perhaps Clément Créole Shrubb}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear, note: adjust to taste depending on sweetness}
+  - {name: Overproof dark rum, ml: 15, oz: 0.5, scaling: linear, note: Plantation OFTD}
+  - {name: Pineapple rum, ml: 45, oz: 1.5, scaling: linear, note: Stiggins' Fancy}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: Cocktail Wonk (Matt Pietrek)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 71
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.

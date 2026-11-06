@@ -1,0 +1,36 @@
+# Star Daisy - 1 version
+name: Star Daisy
+tags:
+- applejack
+- gin
+versions:
+- slug: star-daisy-educated-barfly
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Gin, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Applejack, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Dry curaçao, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Lemon Twist
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    thoughts: What you expect, nothing stand out but pleasarable nonetheless
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 83
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

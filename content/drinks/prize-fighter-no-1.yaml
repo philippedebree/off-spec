@@ -1,0 +1,36 @@
+# Prize Fighter No 1 - 1 version
+name: Prize Fighter No 1
+tags:
+- fernet
+- vermouth
+versions:
+- slug: prize-fighter-no-1-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 82.5
+  ingredients:
+  - {name: Fernet-Branca, ml: 30, oz: 1, scaling: linear}
+  - {name: Carpano Antica, ml: 30, oz: 1, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lemon juice, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Mint leaves, amount: 6-8, scaling: fixed}
+  - {name: Lemon wedges, amount: '3', scaling: fixed}
+  garnish: Mint Sprig Garnish
+  steps:
+  - Gently muddle the mint leaves, lemon wedges in the shaker.
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 92
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

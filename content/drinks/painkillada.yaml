@@ -1,0 +1,31 @@
+# Pain Killada - 1 version
+name: Pain Killada
+tags:
+- tiki
+versions:
+- slug: painkillada-distinguished-spirits
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 255
+  ingredients:
+  - {name: Jamaican rum, ml: 37.5, oz: 1.25, scaling: linear}
+  - {name: Demerara rum, ml: 37.5, oz: 1.25, scaling: linear}
+  - {name: Pineapple juice, ml: 90, oz: 3, scaling: linear}
+  - {name: Orange juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Cinnamon syrup, ml: 30, oz: 1, scaling: linear}
+  - {name: Coconut cream, ml: 30, oz: 1, scaling: linear}
+  garnish: Orange Wheel, Pineapple wheel, Fronds
+  steps:
+  - Double strain over ice in the mug.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Distinguished Spirits
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 26

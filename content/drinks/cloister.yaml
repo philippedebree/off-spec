@@ -1,0 +1,30 @@
+# Cloister - 1 version
+name: Cloister
+tags:
+- gin
+versions:
+- slug: cloister-punch
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Gin, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Yellow Chartreuse, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Grapefruit juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lemon juice, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Simple syrup, ml: 7.5, oz: 0.25, scaling: linear}
+  garnish: Grapefruit twist
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 27

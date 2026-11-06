@@ -1,0 +1,35 @@
+# Fog Cutter - 1 version
+name: Fog Cutter
+tags:
+- tiki
+versions:
+- slug: fog-cutter-distinguished-spirits
+  method: shaken
+  served: tall
+  glass: pilsner
+  designed_for:
+    glass: pilsner
+    spec_volume_ml: 225
+  ingredients:
+  - {name: Light rum, ml: 60, oz: 2, scaling: linear}
+  - {name: Gin, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Brandy, ml: 30, oz: 1, scaling: linear}
+  - {name: Lemon juice, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Orange juice, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Sherry, ml: 15, oz: 0.5, scaling: linear, note: float}
+  garnish: Mint
+  steps:
+  - Shake hard with ice.
+  - Strain into a pilsner over fresh ice.
+  source:
+    site: Distinguished Spirits
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Don the Beachcomber
+  personal:
+    notes: Super muddled, citrus front with little back/not much flavor from alchol
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 12

@@ -1,0 +1,336 @@
+# Mai Tai - 11 versions
+name: Mai Tai
+tags:
+- mai-tai
+- tiki
+versions:
+- slug: mai-tai-garrett-richards
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 126.5
+  ingredients:
+  - {name: St Lucia rum, ml: 45, oz: 1.5, scaling: linear, note: Chairman's Reserve}
+  - {name: Dark Jamaican rum, ml: 22.5, oz: 0.75, scaling: linear, note: Coruba}
+  - {name: Grand Marnier, ml: 5, oz: 0.167, scaling: linear, amount: 1 tsp}
+  - {name: Clément Créole Shrubb, ml: 5, oz: 0.167, scaling: linear, amount: 1 tsp}
+  - {name: Acid-adjusted pineapple juice, ml: 30, oz: 1.0, scaling: linear}
+  - {name: Orgeat, ml: 19, oz: 0.625, scaling: linear}
+  - {name: Saline solution, amount: 5 drops, scaling: dash, note: 20% Solution}
+  - {name: Lime wedge, amount: '1 spent wedge, shaken with the drink', scaling: fixed}
+  garnish: Mint Sprig, Pineapple Wedge
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: Garrett Richards
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 4
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: royal-hawaiian-mai-tai-1971
+  name: Royal Hawaiian Mai Tai (1971)
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 195
+  ingredients:
+  - {name: Demerara rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Jamaican rum, ml: 30, oz: 1, scaling: linear, note: dark}
+  - {name: Light rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Pineapple juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Orange juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Simple syrup, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Orgeat, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Orange curaçao, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Lemon juice, ml: 7.5, oz: 0.25, scaling: linear}
+  garnish: Mint sprig, sugar Cane Stick and pineapple spear
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Royal Hawaiian Hotel, Waikiki, 1971
+  personal:
+    notes: Too sweet?
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 14
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: mai-tai-1944-simplified
+  name: Mai Tai (1944, simplified)
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 127.5
+  ingredients:
+  - {name: Aged rum, ml: 60, oz: 2, scaling: linear}
+  - {name: Orange curaçao, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Rock candy syrup, ml: 7.5, oz: 0.25, scaling: linear, note: or rich simple or demerara syrup}
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: After Trader Vic, 1944
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 26
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: mai-tai-tasting-history
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 127.5
+  ingredients:
+  - {name: Jamaican rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Rhum agricole blanc, ml: 30, oz: 1, scaling: linear}
+  - {name: Dry curaçao, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Simple syrup, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: Tasting History
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 32
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: havana-mai-tai
+  name: Havana Mai Tai
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 120
+  ingredients:
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Orgeat, ml: 11, oz: 0.375, scaling: linear, note: from 1 oz Mai Tai mix}
+  - {name: Orange curaçao, ml: 19, oz: 0.625, scaling: linear, note: from 1 oz Mai Tai mix}
+  - {name: Aged Jamaican rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Rhum St. James, ml: 30, oz: 1, scaling: linear, note: aged}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Trader Vic
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 82
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: ultimate-mai-tai
+  name: Ultimate Mai Tai
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 127.5
+  ingredients:
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear, note: Latitude 29}
+  - {name: Demerara syrup, ml: 7.5, oz: 0.25, scaling: linear, note: BG Reynolds or Liber}
+  - {name: Orange curaçao, ml: 15, oz: 0.5, scaling: linear, note: Ferrand Dry curaçao or Clement Créole Shrubb}
+  - {name: Aged Jamaican rum, ml: 15, oz: 0.5, scaling: linear, note: Appleton 12}
+  - {name: Overproof Jamaican rum, ml: 15, oz: 0.5, scaling: linear, note: Smith & Cross}
+  - {name: Overproof dark rum, ml: 15, oz: 0.5, scaling: linear, note: Plantation OFTD}
+  - {name: Jamaican rum, ml: 15, oz: 0.5, scaling: linear, note: Plantation Xaymaca}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: Kevin Crossman
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 4
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: mai-tai-1956
+  name: Mai Tai (1956)
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 120
+  ingredients:
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Rock candy syrup, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Orange curaçao, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Orgeat, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Lightly aged Puerto Rican rum, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Overproof Demerara rum, ml: 22.5, oz: 0.75, scaling: linear, note: Hamilton 114; or Hamilton 1670 West Indies Blend or a combo}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Trader Vic Bergeron
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 20
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: house-without-a-key-mai-tai
+  name: House Without a Key Mai Tai
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 127.5
+  ingredients:
+  - {name: Lime juice, ml: 37.5, oz: 1.25, scaling: linear}
+  - {name: Orgeat, ml: 10, oz: 0.333, scaling: linear}
+  - {name: Rock candy syrup, ml: 10, oz: 0.333, scaling: linear}
+  - {name: Orange curaçao, ml: 10, oz: 0.333, scaling: linear, note: Cointreau}
+  - {name: Dark rum, ml: 22.5, oz: 0.75, scaling: linear, note: Bacardi Select or Black}
+  - {name: Gold rum, ml: 22.5, oz: 0.75, scaling: linear, note: Bacardi Gold}
+  - {name: Overproof Demerara rum, ml: 15, oz: 0.5, scaling: linear, note: Lemon Hart 151; float}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: House Without a Key, Halekulani Hotel, Waikiki
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 27
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: chucks-steak-house-mai-tai
+  name: Chuck's Steak House Mai Tai
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 150
+  ingredients:
+  - {name: Sweet and sour mix, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Light rum, ml: 37.5, oz: 1.25, scaling: linear, note: 1 to 1 1/2 oz}
+  - {name: Orange curaçao, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Falernum or orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Dark rum, ml: 30, oz: 1, scaling: linear, note: or dark Demerara rum; float}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Chuck's Original Steak House, Waikiki (courtesy of Les Hong)
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 42
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: mai-tai-international-bartenders-association-iba
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 127.5
+  ingredients:
+  - {name: Amber Jamaican rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Martinique molasses rhum, ml: 30, oz: 1.0, scaling: linear}
+  - {name: Orange curaçao, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear, note: Almond}
+  - {name: Lime juice, ml: 30, oz: 1.0, scaling: linear}
+  - {name: Simple syrup, ml: 7.5, oz: 0.25, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: International Bartenders Association (IBA)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 48
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.
+- slug: mai-tai-shannon-mustipher-tiki-modern-tropical-cocktails
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 120
+  ingredients:
+  - {name: Aged rum, ml: 60, oz: 2, scaling: linear}
+  - {name: Rhum agricole blanc, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orange curaçao, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: 'Shannon Mustipher, Tiki: Modern Tropical Cocktails'
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 65
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.

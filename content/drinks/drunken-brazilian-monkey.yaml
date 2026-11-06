@@ -1,0 +1,33 @@
+# Drunken Brazilian Monkey - 1 version
+name: Drunken Brazilian Monkey
+tags:
+- tiki
+versions:
+- slug: drunken-brazilian-monkey-make-and-drink
+  method: shaken
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 120
+  ingredients:
+  - {name: Cachaça, ml: 60, oz: 2, scaling: linear, note: 'try rhum agricole blanc; alt: 1 oz tequila + 1 oz cachaça'}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Grapefruit juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Banana liqueur, ml: 15, oz: 0.5, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Pour into a tiki mug and fill with crushed ice.
+  source:
+    site: Make and Drink
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Trader Vic
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 10
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed tiki mug.

@@ -1,0 +1,33 @@
+# Almost Famous - 1 version
+name: Almost Famous
+tags:
+- chartreuse
+- rum
+versions:
+- slug: almost-famous-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Overproof Jamaican rum, ml: 22.5, oz: 0.75, scaling: linear, note: Rum Fire}
+  - {name: Yellow Chartreuse, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Aperol, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 58
+  needs_review: true
+  review_notes:
+  - Written as 1:1:1:1; set to 0.75 oz each (the usual equal-parts pour).
+  - Glass not in the sheet; assumed coupe.

@@ -1,0 +1,33 @@
+# Harry's Pick Me Up - 1 version
+name: Harry's Pick Me Up
+tags:
+- cognac
+versions:
+- slug: harrys-pick-me-up-house
+  method: shaken
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Cognac, ml: 30, oz: 1, scaling: linear}
+  - {name: Grenadine, ml: 30, oz: 1, scaling: linear}
+  - {name: Lemon juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Champagne, amount: top, scaling: topper}
+  garnish: Lemon Twist
+  steps:
+  - Shake hard with ice.
+  - Strain into a collins over fresh ice.
+  - Top with champagne.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 86
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed collins.

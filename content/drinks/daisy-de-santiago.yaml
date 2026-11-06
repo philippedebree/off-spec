@@ -1,0 +1,31 @@
+# Daisy De Santiago - 1 version
+name: Daisy De Santiago
+tags:
+- rum
+versions:
+- slug: daisy-de-santiago-educated-barfly
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 112.5
+  ingredients:
+  - {name: White rum, ml: 60, oz: 2, scaling: linear}
+  - {name: Yellow Chartreuse, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 48
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

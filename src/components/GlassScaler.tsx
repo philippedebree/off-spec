@@ -51,14 +51,17 @@ export default function GlassScaler({ recipe }: { recipe: Recipe }) {
         {recipe.ingredients.map((ing, i) => {
           const s = scaled?.ingredients[i];
           let amount = ing.amount ?? "";
-          if (ing.ml != null) amount = fmt(s?.scaledMl ?? ing.ml);
+          if (ing.ml != null && (s?.scaledMl != null || !ing.amount)) amount = fmt(s?.scaledMl ?? ing.ml);
           if (ing.dashes != null) {
             const d = s?.scaledDashes ?? ing.dashes;
             amount = `${d} dash${d === 1 ? "" : "es"}`;
           }
           return (
             <li key={ing.name} className="flex justify-between py-2">
-              <span>{ing.name}</span>
+              <span>
+                {ing.name}
+                {ing.note && <span className="ml-2 text-sm text-neutral-500">{ing.note}</span>}
+              </span>
               <span className="tabular-nums text-neutral-600">{amount}</span>
             </li>
           );

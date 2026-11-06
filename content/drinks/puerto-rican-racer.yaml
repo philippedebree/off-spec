@@ -1,0 +1,29 @@
+# The Puerto Rican Racer - 1 version
+name: The Puerto Rican Racer
+tags:
+- rum
+versions:
+- slug: puerto-rican-racer-house
+  method: stirred
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 95
+  ingredients:
+  - {name: Cuban/Puerto Rican-style rum, ml: 60, oz: 2, scaling: linear}
+  - {name: Peychaud's bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  - {name: Grenadine, ml: 5, oz: 0.167, scaling: linear, amount: 1 tsp}
+  - {name: Yellow Chartreuse, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Apple brandy, ml: 15, oz: 0.5, scaling: linear}
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 56

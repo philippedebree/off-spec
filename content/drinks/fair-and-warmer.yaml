@@ -1,0 +1,30 @@
+# Fair and Warmer - 1 version
+name: Fair and Warmer
+tags:
+- rum
+versions:
+- slug: fair-and-warmer-house
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 72.5
+  ingredients:
+  - {name: White rum, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Sweet vermouth, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orange curaçao, ml: 5, oz: 0.167, scaling: linear}
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 49
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

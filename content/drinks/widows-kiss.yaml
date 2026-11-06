@@ -1,0 +1,33 @@
+# Deke Dunne's Widow's Kiss - 1 version
+name: Deke Dunne's Widow's Kiss
+tags:
+- brandy
+- coganc
+versions:
+- slug: widows-kiss-punch
+  method: stirred
+  served: up
+  glass: nick-and-nora
+  designed_for:
+    glass: nick-and-nora
+    spec_volume_ml: 67.5
+  ingredients:
+  - {name: Apple brandy, ml: 30, oz: 1, scaling: linear}
+  - {name: Cognac, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Yellow Chartreuse, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Bénédictine, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Angostura bitters, dashes: 2, amount: 2 dashes, scaling: dash}
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled Nick & Nora.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: Not to my taste, but sophisticated, orange?? Don't really taste the apple
+    gad_approved: true
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 15

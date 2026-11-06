@@ -1,0 +1,30 @@
+# Plum Island Punch - 1 version
+name: Plum Island Punch
+tags:
+- tiki
+versions:
+- slug: plum-island-punch-anders-erickson
+  method: shaken
+  served: tall
+  glass: hurricane
+  designed_for:
+    glass: hurricane
+    spec_volume_ml: 125
+  ingredients:
+  - {name: Gold rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Absinthe, ml: 5, oz: 0.167, scaling: linear, round: down, amount: 1 tsp}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orgeat, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lillet Rouge, ml: 45, oz: 1.5, scaling: linear}
+  garnish: Grated Nutmeg, Fronds
+  steps:
+  - Shake with crushed ice.
+  - Strain into a hurricane over fresh ice.
+  source:
+    site: Anders Erickson
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 30

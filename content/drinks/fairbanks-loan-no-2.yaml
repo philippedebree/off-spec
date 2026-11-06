@@ -1,0 +1,32 @@
+# Fairbanks Loan No. 2 - 1 version
+name: Fairbanks Loan No. 2
+tags:
+- gin
+- rum
+versions:
+- slug: fairbanks-loan-no-2-punch
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 82.5
+  ingredients:
+  - {name: Gin, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Stiggins' Fancy pineapple rum, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lilletperitif, ml: 15, oz: 0.5, scaling: linear, note: 'house blend: Lillet, Cynar, Campari at 1 : 0.5 : 0.25'}
+  - {name: Honey syrup, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Lemon juice, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Lime juice, ml: 7.5, oz: 0.25, scaling: linear}
+  garnish: Lemon peel
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 37

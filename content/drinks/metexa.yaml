@@ -1,0 +1,28 @@
+# Metexa - 1 version
+name: Metexa
+tags:
+- vermouth
+versions:
+- slug: metexa-punch
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 75
+  ingredients:
+  - {name: Cocchi Americano, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Blanc vermouth, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Swedish punsch, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Grapefruit twist
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 68

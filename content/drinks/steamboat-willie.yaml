@@ -1,0 +1,33 @@
+# Steamboat Willie - 1 version
+name: Steamboat Willie
+tags:
+- mezcal
+versions:
+- slug: steamboat-willie-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 122.5
+  ingredients:
+  - {name: Mezcal, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Green Chartreuse, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Velvet falernum, ml: 10, oz: 0.33, scaling: linear}
+  - {name: Coconut milk, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Cherry, Dehhydated orange slice
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 41
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

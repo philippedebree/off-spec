@@ -1,0 +1,35 @@
+# Bali Bali - 1 version
+name: Bali Bali
+tags:
+- tiki
+versions:
+- slug: bali-bali-anders-erickson
+  method: shaken
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 195
+  ingredients:
+  - {name: Light rum, ml: 22.5, oz: 0.75, scaling: linear, note: Real McCoy 3 year (Anders)}
+  - {name: Jamaican rum, ml: 22.5, oz: 0.75, scaling: linear, note: Hamilton Black (Anders)}
+  - {name: Gin, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Cognac, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Pineapple juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orange juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Passionfruit syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Simple syrup, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Falernum, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Fronds
+  steps:
+  - Shake with crushed ice.
+  - Pour into a tiki mug and fill with crushed ice.
+  source:
+    site: Anders Erickson
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 3

@@ -1,0 +1,37 @@
+# Galleon Grog - 1 version
+name: Galleon Grog
+tags:
+- tiki
+versions:
+- slug: galleon-grog-rum-fire
+  method: blended
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 267.5
+  ingredients:
+  - {name: Overproof white Jamaican rum, ml: 60, oz: 2, scaling: linear, note: Rum Fire}
+  - {name: Overproof dark Jamaican rum, ml: 30, oz: 1, scaling: linear, note: Hampden Estate overproof}
+  - {name: Absinthe, ml: 5, oz: 0.167, scaling: linear, round: down, amount: 1 barspoon}
+  - {name: Lime juice, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Passionfruit, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Demerara syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Honey syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Grenadine, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Allspice dram, ml: 15, oz: 0.5, scaling: linear, round: down}
+  - {name: White grapefruit juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Guava, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Ancho Reyes Verde, amount: 1 barspoon, scaling: fixed}
+  garnish: Passionfruit pearls, mint, orchid
+  steps:
+  - Flash blend with crushed ice for a few seconds.
+  - Pour unstrained into a tiki mug.
+  source:
+    site: Rum Fire (Instagram)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 2

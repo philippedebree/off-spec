@@ -1,0 +1,35 @@
+# Hoffman House Fizz - 1 version
+name: Hoffman House Fizz
+tags:
+- gin
+versions:
+- slug: hoffman-house-fizz-house
+  method: shaken
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 120
+  ingredients:
+  - {name: Gin, ml: 60, oz: 2, scaling: linear}
+  - {name: Grenadine, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Heavy cream, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orange juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Egg white, amount: 1 egg white, scaling: fixed}
+  - {name: Soda water, amount: top, scaling: topper}
+  steps:
+  - Dry shake without ice, then shake hard with ice.
+  - Strain into a collins over fresh ice.
+  - Top with soda water.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 91
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed collins.

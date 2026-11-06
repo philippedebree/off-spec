@@ -1,0 +1,34 @@
+# Untitled (Steve the Bartender) - 1 version
+name: Untitled (Steve the Bartender)
+tags:
+- tiki
+versions:
+- slug: untitled-steve-the-bartender
+  method: shaken
+  served: crushed-ice
+  glass: pearl-diver
+  designed_for:
+    glass: pearl-diver
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Overproof Jamaican rum, ml: 10, oz: 0.333, scaling: linear, note: Smith & Cross}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orange juice, ml: 20, oz: 0.66, scaling: linear}
+  - {name: Licor 43, ml: 40, oz: 1.333, scaling: linear}
+  - {name: Espresso, ml: 20, oz: 0.667, scaling: linear}
+  garnish: Flower, Mint Sprig
+  steps:
+  - Shake hard with ice.
+  - Pour into a pearl diver and fill with crushed ice.
+  source:
+    site: Steve the Bartender
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 49
+  needs_review: true
+  review_notes:
+  - Jamaican Rum amount was stored as a date in the sheet; read as 1/3 oz.
+  - Unnamed in the sheet.

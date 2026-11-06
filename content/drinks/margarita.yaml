@@ -1,0 +1,59 @@
+# Margarita - 2 versions
+name: Margarita
+tags:
+- margarita
+- tequila
+versions:
+- slug: margarita-diffords
+  name: Margarita on the Rocks
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 95
+  ingredients:
+  - {name: Reposado tequila, ml: 45, oz: 1.5, scaling: linear, note: Patrón}
+  - {name: Cointreau, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Agave syrup, ml: 5, oz: 0.167, scaling: linear}
+  - {name: Saline solution, amount: 2 drops, scaling: dash, note: optional; 20%}
+  - {name: Difford's Margarita bitters, amount: 4 drops, scaling: dash, note: optional}
+  steps:
+  - Shake hard with ice.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Difford's Guide
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Margaritas
+    row: 3
+- slug: margarita-house
+  name: Margarita (house riff)
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 80
+  ingredients:
+  - {name: Reposado tequila, ml: 45, oz: 1.5, scaling: linear, note: Tres Agaves}
+  - {name: Triple sec, ml: 10, oz: 0.33, scaling: linear, note: De Kuyper}
+  - {name: Agave syrup, ml: 10, oz: 0.33, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Margaritas
+    row: 21
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

@@ -1,0 +1,31 @@
+# Ned King's Gem - 1 version
+name: Ned King's Gem
+tags:
+- cognac
+- rum
+versions:
+- slug: ned-kings-gem-punch
+  method: shaken
+  served: up
+  glass: nick-and-nora
+  designed_for:
+    glass: nick-and-nora
+    spec_volume_ml: 97.5
+  ingredients:
+  - {name: Cognac, ml: 30, oz: 1, scaling: linear}
+  - {name: Jamaican rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Pineapple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Angostura bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  garnish: Cinammon
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled Nick & Nora.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 21

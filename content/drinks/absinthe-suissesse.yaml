@@ -1,0 +1,35 @@
+# Absinthe Suissesse - 1 version
+name: Absinthe Suissesse
+tags:
+- absinthe
+versions:
+- slug: absinthe-suissesse-punch
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 75
+  ingredients:
+  - {name: Absinthe, ml: 30, oz: 1, scaling: linear, note: optimally high proof}
+  - {name: Orgeat, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Egg white, amount: 1 egg white, scaling: fixed}
+  - {name: Cream, ml: 30, oz: 1, scaling: linear}
+  - {name: Crème de menthe, ml: 7.5, oz: 0.25, scaling: linear, round: down, note: float}
+  steps:
+  - Dry shake without ice, then shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: Summer version omit Orgeat
+    highlights: Absinthe, Cream, Menthe
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 2
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

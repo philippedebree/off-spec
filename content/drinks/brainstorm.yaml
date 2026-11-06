@@ -1,0 +1,28 @@
+# Al Sotack's Brainstorm - 1 version
+name: Al Sotack's Brainstorm
+tags:
+- whiskey
+versions:
+- slug: brainstorm-punch
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Irish whiskey, ml: 60, oz: 2, scaling: linear}
+  - {name: Dry vermouth, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Bénédictine, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Lemon Twist, discarded
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 70

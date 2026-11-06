@@ -1,0 +1,35 @@
+# Chauncey - 1 version
+name: Chauncey
+tags:
+- cognac
+- gin
+- rye
+versions:
+- slug: chauncey-punch
+  method: stirred
+  served: up
+  glass: nick-and-nora
+  designed_for:
+    glass: nick-and-nora
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Gin, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Cognac, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Rye whiskey, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Sweet vermouth, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orange bitters, dashes: 2, amount: 2 dashes, scaling: dash}
+  garnish: Orange twist
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled Nick & Nora.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    tagline: Manhattan on gin and cognac
+    gad_approved: true
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 20

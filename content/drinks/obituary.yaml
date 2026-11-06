@@ -1,0 +1,30 @@
+# Obituary - 1 version
+name: Obituary
+tags:
+- gin
+versions:
+- slug: obituary-punch
+  method: stirred
+  served: up
+  glass: nick-and-nora
+  designed_for:
+    glass: nick-and-nora
+    spec_volume_ml: 97.5
+  ingredients:
+  - {name: London dry gin, ml: 82.5, oz: 2.75, scaling: linear}
+  - {name: Dry vermouth, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Absinthe, dashes: 6, amount: 6 dashes, scaling: dash}
+  garnish: Lemon express
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled Nick & Nora.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    tagline: Absinthe Gin Martini
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 31

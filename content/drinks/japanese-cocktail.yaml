@@ -1,0 +1,30 @@
+# Japanese Cocktail - 1 version
+name: Japanese Cocktail
+tags:
+- cognac
+versions:
+- slug: japanese-cocktail-punch
+  method: stirred
+  served: up
+  glass: nick-and-nora
+  designed_for:
+    glass: nick-and-nora
+    spec_volume_ml: 75
+  ingredients:
+  - {name: Cognac, ml: 60, oz: 2, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Angostura bitters, dashes: 2, amount: 2 dashes, scaling: dash}
+  garnish: Lemon Peel
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled Nick & Nora.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    notes: Missing a little complecity, more or less what you expect
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 19

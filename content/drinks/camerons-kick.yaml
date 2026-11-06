@@ -1,0 +1,32 @@
+# Cameron's Kick - 1 version
+name: Cameron's Kick
+tags:
+- whiskey
+versions:
+- slug: camerons-kick-diffords
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 100
+  ingredients:
+  - {name: Blended Scotch, ml: 30, oz: 1, scaling: linear}
+  - {name: Irish whiskey, ml: 30, oz: 1, scaling: linear}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 10, oz: 0.33, scaling: linear}
+  - {name: Water, ml: 15, oz: 0.5, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: Difford's Guide
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 72
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

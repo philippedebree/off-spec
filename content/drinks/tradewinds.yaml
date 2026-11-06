@@ -1,0 +1,31 @@
+# Tradewinds - 1 version
+name: Tradewinds
+tags:
+- tiki
+versions:
+- slug: tradewinds-beachbum-berry
+  method: blended
+  served: crushed-ice
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 165
+  ingredients:
+  - {name: Light rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Jamaican rum, ml: 30, oz: 1, scaling: linear, note: 'Dark, Make and Drink uses Appleton estate 12'}
+  - {name: Lemon juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Coconut milk, ml: 30, oz: 1, scaling: linear}
+  - {name: Apricot liqueur, ml: 30, oz: 1, scaling: linear}
+  garnish: Lemon wedge, umbrella
+  steps:
+  - Flash blend with crushed ice for a few seconds.
+  - Pour unstrained into a collins.
+  source:
+    site: Beachbum Berry
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 47

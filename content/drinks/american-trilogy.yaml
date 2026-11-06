@@ -1,0 +1,35 @@
+# American Trilogy - 1 version
+name: American Trilogy
+tags:
+- applejack
+- rye
+versions:
+- slug: american-trilogy-educated-barfly
+  method: built
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 60
+  ingredients:
+  - {name: Demerara sugar cube, amount: '1', scaling: fixed}
+  - {name: Soda water, amount: 1 dash, scaling: fixed}
+  - {name: Orange bitters, dashes: 4, amount: 4 dashes, scaling: dash}
+  - {name: Angostura bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  - {name: Rye whiskey, ml: 30, oz: 1, scaling: linear, note: 100 proof}
+  - {name: Applejack, ml: 30, oz: 1, scaling: linear, note: 100 proof}
+  garnish: Orange Twist
+  steps:
+  - Muddle the sugar cube with the bitters and soda in a rocks glass.
+  - Add the spirits and a large ice cube, and stir briefly.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 79
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old-fashioned.

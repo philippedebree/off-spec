@@ -1,0 +1,31 @@
+# Bushwick - 1 version
+name: Bushwick
+tags:
+- rye
+versions:
+- slug: bushwick-educated-barfly
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 97.5
+  ingredients:
+  - {name: Amaro Lucano, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Maraschino liqueur, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Sweet vermouth, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Rye whiskey, ml: 60, oz: 2, scaling: linear, note: 100 proof}
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 81
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

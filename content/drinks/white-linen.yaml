@@ -1,0 +1,36 @@
+# White Linen - 1 version
+name: White Linen
+tags:
+- gin
+versions:
+- slug: white-linen-house
+  method: shaken
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Gin, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Lemon juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Elderflower liqueur, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Cucumber slices, amount: '3', scaling: fixed, note: muddle}
+  - {name: Soda water, amount: top, scaling: topper}
+  garnish: Cucumber
+  steps:
+  - Gently muddle the cucumber slices in the shaker.
+  - Shake hard with ice.
+  - Strain into a collins over fresh ice.
+  - Top with soda water.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 36
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed collins.

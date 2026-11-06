@@ -1,0 +1,35 @@
+# Banana Mai Tai - 1 version
+name: Banana Mai Tai
+tags:
+- mai-tai
+- tiki
+related:
+- mai-tai
+versions:
+- slug: banana-mai-tai
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 142.5
+  ingredients:
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Molasses syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Banana liqueur, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Ultimate Mai Tai rum blend, ml: 60, oz: 2, scaling: linear, note: 'equal parts Appleton 12, Smith & Cross, Plantation OFTD and Plantation Xaymaca'}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: Kevin Crossman
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 65
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.

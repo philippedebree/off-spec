@@ -1,0 +1,31 @@
+# Pan American Clipper - 1 version
+name: Pan American Clipper
+tags:
+- applejack
+versions:
+- slug: pan-american-clipper-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Applejack, ml: 60, oz: 2, scaling: linear}
+  - {name: Grenadine, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  garnish: Lemon Twist
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 88
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

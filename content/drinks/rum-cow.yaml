@@ -1,0 +1,29 @@
+# Rum Cow - 1 version
+name: Rum Cow
+tags:
+- rum
+versions:
+- slug: rum-cow-punch
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 180
+  ingredients:
+  - {name: Whole milk, ml: 90, oz: 3, scaling: linear}
+  - {name: Aged Jamaican rum, ml: 60, oz: 2, scaling: linear, note: Merchant Reserve}
+  - {name: Simple syrup, ml: 30, oz: 1, scaling: linear}
+  - {name: Angostura bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  garnish: Nutmeg
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 57

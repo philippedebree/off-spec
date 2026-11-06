@@ -1,0 +1,30 @@
+# Jungle Bird - 1 version
+name: Jungle Bird
+tags:
+- tiki
+versions:
+- slug: jungle-bird-smugglers-cove
+  method: shaken
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 157.5
+  ingredients:
+  - {name: Jamaican rum, ml: 45, oz: 1.5, scaling: linear, note: Dark}
+  - {name: Pineapple juice, ml: 60, oz: 2, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Campari, ml: 22.5, oz: 0.75, scaling: linear}
+  garnish: Cherry, Lemon Wheel, Mint Sprig, Orchid
+  steps:
+  - Shake hard with ice.
+  - Pour into a tiki mug and fill with crushed ice.
+  source:
+    site: Smuggler's Cove
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 14

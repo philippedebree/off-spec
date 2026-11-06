@@ -1,0 +1,35 @@
+# Mezcal Mule - 1 version
+name: Mezcal Mule
+tags:
+- mezcal
+versions:
+- slug: mezcal-mule-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 135
+  ingredients:
+  - {name: Mezcal, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Ginger wort, ml: 30, oz: 1, scaling: linear}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Passionfruit purée, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Agave syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Cucumber slices, amount: '4', scaling: fixed}
+  garnish: Cucumber slices, Cayenne
+  steps:
+  - Gently muddle the cucumber slices in the shaker.
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 39
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

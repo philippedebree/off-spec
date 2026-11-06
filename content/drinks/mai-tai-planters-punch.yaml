@@ -1,0 +1,40 @@
+# Mai Tai Planter's Punch - 1 version
+name: Mai Tai Planter's Punch
+tags:
+- mai-tai
+- tiki
+related:
+- mai-tai
+versions:
+- slug: mai-tai-planters-punch
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 120
+  ingredients:
+  - {name: Aromatic bitters, dashes: 2, amount: 2 dashes, scaling: dash}
+  - {name: Falernum, dashes: 1, amount: 1 dash, scaling: dash}
+  - {name: Grenadine, dashes: 1, amount: 1 dash, scaling: dash}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: 'Don''s Spices #2', ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Dry curaçao, ml: 15, oz: 0.5, scaling: linear, note: Pierre Ferrand}
+  - {name: Jamaican rum, ml: 45, oz: 1.5, scaling: linear, note: Plantation Xaymaca}
+  - {name: Overproof dark rum, ml: 15, oz: 0.5, scaling: linear, note: Plantation OFTD}
+  steps:
+  - Shake hard with ice.
+  - Pour into a double old-fashioned glass and fill with crushed ice.
+  source:
+    site: Jason Alexander
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Devil's Reef, Tacoma, WA
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 55
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.

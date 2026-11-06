@@ -23,8 +23,9 @@ export default async function CompareDrink({ params }: PageProps<"/compare/[key]
   const cell = (v: (typeof versions)[number], name: string) => {
     const ing = v.ingredients.find((i) => i.name === name);
     if (!ing) return "—";
+    if (ing.amount) return ing.amount;
     if (ing.ml != null) return `${ing.ml} ml`;
-    return ing.amount ?? "✓";
+    return "✓";
   };
 
   return (

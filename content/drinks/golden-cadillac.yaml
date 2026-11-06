@@ -1,0 +1,31 @@
+# Golden Cadillac - 1 version
+name: Golden Cadillac
+tags:
+- galliano
+versions:
+- slug: golden-cadillac-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Cream, ml: 30, oz: 1, scaling: linear}
+  - {name: Crème de cacao, ml: 30, oz: 1, scaling: linear, note: light}
+  - {name: Galliano, ml: 30, oz: 1, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 22
+  needs_review: true
+  review_notes:
+  - Written as equal parts; set to 1 oz each.
+  - Glass not in the sheet; assumed coupe.

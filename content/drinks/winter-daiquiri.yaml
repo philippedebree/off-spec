@@ -1,0 +1,32 @@
+# Winter Daiquiri - 1 version
+name: Winter Daiquiri
+tags:
+- rum
+versions:
+- slug: winter-daiquiri-educated-barfly
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Simple syrup, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Blackstrap rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Blended rum, ml: 30, oz: 1, scaling: linear, note: Banks 7 Island}
+  garnish: Lime Wheel Garnish
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 82
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

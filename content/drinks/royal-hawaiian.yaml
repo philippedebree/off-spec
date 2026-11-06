@@ -1,0 +1,29 @@
+# Cane and Table's Royal Hawaiian - 1 version
+name: Cane and Table's Royal Hawaiian
+tags:
+- gin
+versions:
+- slug: royal-hawaiian-punch
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 105
+  ingredients:
+  - {name: London dry gin, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Pineapple juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Mint Sprig
+  steps:
+  - Shake hard with ice.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 26

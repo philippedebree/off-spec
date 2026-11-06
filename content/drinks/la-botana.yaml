@@ -1,0 +1,37 @@
+# La Botana - 1 version
+name: La Botana
+tags:
+- beer
+- mezcal
+versions:
+- slug: la-botana-liquor-com
+  method: shaken
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 135
+  ingredients:
+  - {name: Mezcal, ml: 60, oz: 2, scaling: linear}
+  - {name: Orange juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Pickling brine, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Habanero bitters, dashes: 6, amount: 6 dashes, scaling: dash}
+  - {name: Mexican lager, ml: 60, oz: 2, scaling: topper}
+  garnish: Orange Twist
+  steps:
+  - Shake hard with ice.
+  - Strain into a collins over fresh ice.
+  - Top with mexican lager.
+  source:
+    site: Liquor.com
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 43
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed collins.

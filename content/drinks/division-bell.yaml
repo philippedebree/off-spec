@@ -1,0 +1,34 @@
+# Division Bell - 1 version
+name: Division Bell
+tags:
+- mezcal
+versions:
+- slug: division-bell-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 82.5
+  ingredients:
+  - {name: Mezcal, ml: 30, oz: 1, scaling: linear}
+  - {name: Aperol, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Maraschino liqueur, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    tagline: Naked and Famous but with luxardo
+    highlights: Aperol, Maraschino
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 38
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

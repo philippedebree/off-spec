@@ -1,0 +1,58 @@
+# Shrunken Skull - 2 versions
+name: Shrunken Skull
+tags:
+- rum
+- tiki
+versions:
+- slug: shrunken-skull-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Demerara rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Grenadine, ml: 30, oz: 1, scaling: linear}
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 89
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.
+- slug: shrunken-skull-distinguished-spirits
+  method: shaken
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 120
+  ingredients:
+  - {name: Gold rum, ml: 30, oz: 1, scaling: linear, note: Traditionally aged cuban style}
+  - {name: Demerara rum, ml: 30, oz: 1, scaling: linear, note: 'Alt, use 151 to make it a skull and bones'}
+  - {name: Lime juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Grenadine, ml: 30, oz: 1, scaling: linear}
+  garnish: Lime shell filled with pomegrante seeds
+  steps:
+  - Shake hard with ice.
+  - Pour into a tiki mug and fill with crushed ice.
+  source:
+    site: Distinguished Spirits
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: The Mai-Kai
+  personal:
+    notes: Pink Daiquiri
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 37

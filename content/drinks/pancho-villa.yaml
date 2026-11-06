@@ -1,0 +1,33 @@
+# Pancho Villa - 1 version
+name: Pancho Villa
+tags:
+- tiki
+versions:
+- slug: pancho-villa-punch
+  method: shaken
+  served: tall
+  glass: collins
+  designed_for:
+    glass: collins
+    spec_volume_ml: 120
+  ingredients:
+  - {name: Dark rum, ml: 45, oz: 1.5, scaling: linear, note: Blended aged rum (Santa Teresa 1796)}
+  - {name: Gin, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Pineapple juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lime juice, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Apricot liqueur, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Cherry liqueur, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Soda water, amount: top, scaling: topper}
+  garnish: Pineapple fronds, lime zest, lime wheel
+  steps:
+  - Shake hard with ice.
+  - Strain into a collins over fresh ice.
+  - Top with soda water.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 29

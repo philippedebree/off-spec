@@ -1,0 +1,35 @@
+# King Kamehameha Rum Punch - 1 version
+name: King Kamehameha Rum Punch
+tags:
+- tiki
+versions:
+- slug: king-kamehameha-rum-punch-beachbum-berry
+  method: blended
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 150
+  ingredients:
+  - {name: Light rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Dark rum, ml: 30, oz: 1, scaling: linear, note: 'Float if so desired, or mix'}
+  - {name: Pineapple juice, ml: 60, oz: 2, scaling: linear}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Simple syrup, ml: 5, oz: 0.167, scaling: linear, amount: 1 tsp}
+  - {name: Grenadine, ml: 5, oz: 0.167, scaling: linear, amount: 1 tsp}
+  - {name: Crème de mûre, ml: 5, oz: 0.167, scaling: linear, amount: 1 tsp}
+  steps:
+  - Flash blend with crushed ice for a few seconds.
+  - Pour unstrained into a tiki mug.
+  source:
+    site: Sippin' Safari
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Jeff "Beachbum" Berry
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 15
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed tiki mug.

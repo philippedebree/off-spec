@@ -1,0 +1,29 @@
+# Killer in Red - 1 version
+name: Killer in Red
+tags:
+- gin
+versions:
+- slug: killer-in-red-diffords
+  method: stirred
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 82.5
+  ingredients:
+  - {name: London dry gin, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Campari, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Bianco vermouth, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Grand Marnier, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Drop of rose essential oil
+  steps:
+  - Stir with ice until well chilled.
+  - Strain into a chilled coupe.
+  source:
+    site: Difford's Guide
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 29

@@ -1,0 +1,32 @@
+# White Lady - 1 version
+name: White Lady
+tags:
+- gin
+versions:
+- slug: white-lady-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 107.5
+  ingredients:
+  - {name: Gin, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Lemon juice, ml: 30, oz: 1, scaling: linear}
+  - {name: Cointreau, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Simple syrup, ml: 10, oz: 0.333, scaling: linear}
+  - {name: Egg white, amount: 1 egg white, scaling: fixed}
+  steps:
+  - Dry shake without ice, then shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 35
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

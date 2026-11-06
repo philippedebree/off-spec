@@ -1,0 +1,37 @@
+# Three dots and a Dash - 1 version
+name: Three dots and a Dash
+tags:
+- tiki
+versions:
+- slug: three-dots-and-a-dash-distinguished-spirits
+  method: shaken
+  served: tall
+  glass: pilsner
+  designed_for:
+    glass: pilsner
+    spec_volume_ml: 117.5
+  ingredients:
+  - {name: Rhum agricole, ml: 45, oz: 1.5, scaling: linear, note: Aged; aged}
+  - {name: Demerara rum, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orange juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Honey syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Falernum, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Angostura bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  - {name: Allspice dram, ml: 5, oz: 0.167, scaling: linear, round: down, amount: 1 tsp}
+  garnish: 3 cherries and pineapple piece, fronds
+  steps:
+  - Shake hard with ice.
+  - Strain into a pilsner over fresh ice.
+  source:
+    site: Distinguished Spirits
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Don the Beachcomber
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 44
+  needs_review: true
+  review_notes:
+  - Method not in the sheet; assumed shaken.

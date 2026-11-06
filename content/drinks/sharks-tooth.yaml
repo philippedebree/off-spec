@@ -1,0 +1,31 @@
+# Shark's Tooth - 1 version
+name: Shark's Tooth
+tags:
+- tiki
+versions:
+- slug: sharks-tooth-don-the-beachcomber
+  method: blended
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Dark rum, ml: 30, oz: 1, scaling: linear, note: 'Barbadian, Doorly''s 8 Year'}
+  - {name: Jamaican rum, ml: 30, oz: 1, scaling: linear, note: Traditionally as a float/served as a shot alongside but can also mix}
+  - {name: Pineapple juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Maraschino cherry syrup, amount: 1 tsp, scaling: fixed}
+  garnish: Pineapple Fronds and Cherry
+  steps:
+  - Blend with 3 oz ice (it's a smaller drink).
+  - Pour unstrained into a rocks glass.
+  source:
+    site: Don the Beachcomber
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 36

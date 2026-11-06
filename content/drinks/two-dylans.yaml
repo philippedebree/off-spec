@@ -1,0 +1,31 @@
+# Two Dylans - 1 version
+name: Two Dylans
+tags:
+- whiskey
+versions:
+- slug: two-dylans-punch
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 97.5
+  ingredients:
+  - {name: Pot-still Irish whiskey, ml: 60, oz: 2, scaling: linear}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear, note: macademia}
+  - {name: Curry leaves, amount: '6', scaling: fixed}
+  - {name: Cherry tomatoes, amount: '2', scaling: fixed}
+  garnish: Curry leaf
+  steps:
+  - Gently muddle the curry leaves, cherry tomatoes in the shaker.
+  - Shake hard with ice.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 74

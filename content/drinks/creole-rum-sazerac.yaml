@@ -1,0 +1,32 @@
+# Creole Rum Sazerac - 1 version
+name: Creole Rum Sazerac
+tags:
+- rum
+versions:
+- slug: creole-rum-sazerac-punch
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 79.5
+  ingredients:
+  - {name: Demerara rum, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Jamaican rum, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Simple syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Hot sauce, ml: 2.5, oz: 0.083, scaling: linear, round: down, amount: 0.5 tsp}
+  - {name: Peychaud's bitters, ml: 1.25, oz: 0.042, scaling: linear, amount: 0.25 tsp}
+  - {name: Absinthe, ml: 0.62, oz: 0.021, scaling: linear, round: down, amount: 1/8 tsp}
+  garnish: Lemon Peel
+  steps:
+  - Shake hard with ice.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 47

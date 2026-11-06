@@ -1,0 +1,32 @@
+# Missionary's Downfall - 1 version
+name: Missionary's Downfall
+tags:
+- tiki
+versions:
+- slug: missionarys-downfall-don-the-beachcomber
+  method: blended
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 150
+  ingredients:
+  - {name: Light rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Pineapple, ml: 60, oz: 2, scaling: linear, note: diced}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Honey syrup, ml: 30, oz: 1, scaling: linear}
+  - {name: Mint, amount: '2 oz, tightly packed', scaling: fixed}
+  - {name: Peach liqueur, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Mint Sprig
+  steps:
+  - Blend with 6 oz crushed ice.
+  - Gently muddle the mint.
+  - Pour unstrained into a coupe.
+  source:
+    site: Don the Beachcomber
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 20

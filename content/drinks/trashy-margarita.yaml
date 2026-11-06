@@ -1,0 +1,38 @@
+# Improved Trashy Margarita - 1 version
+name: Improved Trashy Margarita
+tags:
+- margarita
+- tequila
+related:
+- margarita
+versions:
+- slug: trashy-margarita-diffords
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 85
+  ingredients:
+  - {name: Blanco tequila, ml: 45, oz: 1.5, scaling: linear, note: Patrón Silver}
+  - {name: Cointreau, ml: 10, oz: 0.333, scaling: linear}
+  - {name: 'Rich cane syrup (2:1)', ml: 10, oz: 0.333, scaling: linear, note: 'Monin Pure Cane, 65° Brix'}
+  - {name: Lime juice, ml: 10, oz: 0.333, scaling: linear}
+  - {name: Lemon juice, ml: 5, oz: 0.167, scaling: linear}
+  - {name: Egg white, amount: 1/6 oz, scaling: fixed, note: 'pasteurised; or 3 dashes Fee Foam, aquafaba or a vegan replacement'}
+  - {name: Chilled water, ml: 5, oz: 0.167, scaling: linear}
+  - {name: Difford's Margarita bitters, amount: 4 drops, scaling: dash}
+  steps:
+  - Dry shake without ice, then shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: Difford's Guide
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Margaritas
+    row: 11
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

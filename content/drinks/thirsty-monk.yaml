@@ -1,0 +1,30 @@
+# The Thirsty Monk - 1 version
+name: The Thirsty Monk
+tags:
+- bourbon
+versions:
+- slug: thirsty-monk-punch
+  method: shaken
+  served: up
+  glass: nick-and-nora
+  designed_for:
+    glass: nick-and-nora
+    spec_volume_ml: 97.5
+  ingredients:
+  - {name: Bourbon, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Génépy, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Bénédictine, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lemon juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Peychaud's bitters, dashes: 1, amount: 1 dash, scaling: dash}
+  garnish: Lemon peel
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled Nick & Nora.
+  source:
+    site: Punch
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 13

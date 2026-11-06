@@ -1,0 +1,34 @@
+# Smoked Negroni Sour - 1 version
+name: Smoked Negroni Sour
+tags:
+- gin
+versions:
+- slug: smoked-negroni-sour-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 112.5
+  ingredients:
+  - {name: Gin, ml: 30, oz: 1, scaling: linear}
+  - {name: Campari, ml: 30, oz: 1, scaling: linear}
+  - {name: Sweet vermouth, ml: 30, oz: 1, scaling: linear}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Egg white, amount: 1 egg white, scaling: fixed}
+  garnish: Orange twist, rosemary
+  steps:
+  - Smoke a rosemary sprig under the overturned coupe before pouring.
+  - Dry shake without ice, then shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 32
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

@@ -1,0 +1,33 @@
+# Pago Pago - 1 version
+name: Pago Pago
+tags:
+- tiki
+versions:
+- slug: pago-pago-make-and-drink
+  method: shaken
+  served: crushed-ice
+  glass: tiki-mug
+  designed_for:
+    glass: tiki-mug
+    spec_volume_ml: 127.5
+  ingredients:
+  - {name: Jamaican rum, ml: 60, oz: 2, scaling: linear, note: Appleton Signature}
+  - {name: Pineapple juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: White crème de cacao, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Yellow Chartreuse, ml: 15, oz: 0.5, scaling: linear}
+  steps:
+  - Shake hard with ice.
+  - Pour into a tiki mug and fill with crushed ice.
+  source:
+    site: Make and Drink
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Trader Sam's
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 25
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed tiki mug.

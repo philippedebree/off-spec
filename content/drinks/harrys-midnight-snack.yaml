@@ -1,0 +1,35 @@
+# Harry's Midnight Snack - 1 version
+name: Harry's Midnight Snack
+tags:
+- creme-de-cacao
+- fernet
+versions:
+- slug: harrys-midnight-snack-educated-barfly
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Orange wheel, amount: 1/2, scaling: fixed, note: muddled}
+  - {name: Heavy cream, ml: 30, oz: 1, scaling: linear}
+  - {name: Saline solution, amount: 5 drops, scaling: dash, note: 20%}
+  - {name: White crème de cacao, ml: 30, oz: 1, scaling: linear}
+  - {name: Fernet-Branca, ml: 45, oz: 1.5, scaling: linear}
+  garnish: Freeze Dried Orange Wheel Garnish
+  steps:
+  - Gently muddle the orange wheel in the shaker.
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 80
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

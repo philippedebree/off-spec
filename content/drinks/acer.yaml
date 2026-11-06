@@ -1,0 +1,34 @@
+# Acer - 1 version
+name: Acer
+tags:
+- whiskey
+versions:
+- slug: acer-notjustabartender
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 92.5
+  ingredients:
+  - {name: Maple syrup, ml: 10, oz: 0.33, scaling: linear}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orange blossom water, dashes: 2, amount: 2 dashes, scaling: dash}
+  - {name: Pear liqueur, ml: 15, oz: 0.5, scaling: linear, note: St George Spice Pear}
+  - {name: Blended Scotch, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Absinthe, amount: mist over the top, scaling: rinse}
+  steps:
+  - Rinse the glass with absinthe and discard the excess.
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: '@notjustabartender (Instagram)'
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 69
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

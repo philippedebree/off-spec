@@ -1,0 +1,35 @@
+# Neptune's Wrath - 1 version
+name: Neptune's Wrath
+tags:
+- gin
+versions:
+- slug: neptunes-wrath-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Gin, ml: 45, oz: 1.5, scaling: linear}
+  - {name: Absinthe, ml: 7.5, oz: 0.25, scaling: linear, round: down}
+  - {name: Green Chartreuse, ml: 7.5, oz: 0.25, scaling: linear, round: down, note: lit on fire}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Simple syrup, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Egg white, amount: 1 egg white, scaling: fixed}
+  steps:
+  - Dry shake without ice, then shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  personal:
+    highlights: Fire! Green Chartreuse, Absinthe, Egg white/Sour
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 30
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.

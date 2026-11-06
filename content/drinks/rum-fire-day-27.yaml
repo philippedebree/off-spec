@@ -1,0 +1,30 @@
+# Rum Fire Day 27 - 1 version
+name: Rum Fire Day 27
+tags:
+- tiki
+versions:
+- slug: rum-fire-day-27-rum-fire
+  method: shaken
+  served: rocks
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 90
+  ingredients:
+  - {name: Jamaican rum, ml: 45, oz: 1.5, scaling: linear, note: White overproof (rum fire)}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Berry shrub, ml: 7.5, oz: 0.25, scaling: linear}
+  - {name: Bénédictine, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Crème de violette, ml: 7.5, oz: 0.25, scaling: linear}
+  garnish: Lime wheel, angostura ice cubes
+  steps:
+  - Shake hard with ice.
+  - Strain into a rocks glass over fresh ice.
+  source:
+    site: Rum Fire (Instagram)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Tiki!
+    row: 33

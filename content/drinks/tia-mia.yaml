@@ -1,0 +1,37 @@
+# Tia Mia - 1 version
+name: Tia Mia
+tags:
+- mai-tai
+- tiki
+related:
+- mai-tai
+versions:
+- slug: tia-mia
+  method: shaken
+  served: crushed-ice
+  glass: old-fashioned
+  designed_for:
+    glass: old-fashioned
+    spec_volume_ml: 112.5
+  ingredients:
+  - {name: Lime juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orgeat, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Orange curaçao, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Jamaican rum, ml: 30, oz: 1, scaling: linear}
+  - {name: Mezcal, ml: 30, oz: 1, scaling: linear}
+  garnish: Mint, lime wheel
+  steps:
+  - Shake with ice.
+  - Pour into a double old-fashioned glass and top with crushed ice.
+  source:
+    site: Ivy Mix
+    retrieved: '2026-11-06'
+    sponsored: false
+  credit: Lani Kai, New York City, c. 2010
+  imported_from:
+    sheet: Booze
+    tab: Mai Tai
+    row: 46
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed old fashioned with crushed ice.

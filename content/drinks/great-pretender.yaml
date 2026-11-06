@@ -1,0 +1,30 @@
+# The Great Pretender - 1 version
+name: The Great Pretender
+tags:
+- rum
+versions:
+- slug: great-pretender-house
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 110
+  ingredients:
+  - {name: Smith & Cross Jamaican rum, ml: 60, oz: 2, scaling: linear}
+  - {name: Cinnamon syrup, ml: 5, oz: 0.167, scaling: linear, amount: 1 tsp}
+  - {name: Vanilla syrup, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Lime juice, ml: 15, oz: 0.5, scaling: linear}
+  - {name: Pineapple juice, ml: 15, oz: 0.5, scaling: linear}
+  garnish: Cinammon Sugar
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: House (Booze sheet)
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 55

@@ -1,0 +1,33 @@
+# Army and Navy - 1 version
+name: Army and Navy
+tags:
+- gin
+versions:
+- slug: army-and-navy-educated-barfly
+  method: shaken
+  served: up
+  glass: coupe
+  designed_for:
+    glass: coupe
+    spec_volume_ml: 105
+  ingredients:
+  - {name: Gin, ml: 60, oz: 2, scaling: linear}
+  - {name: Lemon juice, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Orgeat, ml: 22.5, oz: 0.75, scaling: linear}
+  - {name: Angostura bitters, dashes: 2, amount: 2 dashes, scaling: dash}
+  - {name: Saline solution, amount: 5 drops, scaling: dash}
+  garnish: Lemon Twist
+  steps:
+  - Shake hard with ice.
+  - Fine strain into a chilled coupe.
+  source:
+    site: The Educated Barfly
+    retrieved: '2026-11-06'
+    sponsored: false
+  imported_from:
+    sheet: Booze
+    tab: Cocktails to Try
+    row: 25
+  needs_review: true
+  review_notes:
+  - Glass not in the sheet; assumed coupe.
